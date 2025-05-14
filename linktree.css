@@ -57,15 +57,15 @@ button:hover {
         padding: 10px;
     }
     .img {
-        height: 125px auto;
-        width: 125px auto;
+        height: 125px;
+        width: 125px;
         margin-top: 10px;
     }
     .button {
         font-size: 14px;
         padding: 8px;
         height: auto;
-        display: flexbox;
+        display: block;
         margin-left: 10px; 
       }
 }
