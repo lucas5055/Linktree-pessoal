@@ -65,6 +65,7 @@ button:hover {
         font-size: 14px;
         padding: 8px;
         height: auto;
-        margin-left: auto;
-    }
+        display: flexbox;
+        margin-left: 10px; 
+      }
 }
