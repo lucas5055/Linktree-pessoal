@@ -51,26 +51,29 @@ button:hover {
     font-size: 14px;
     margin-bottom: 20px;
 }
-@media (max-width: 700px) 
+@media (max-width: 700px) {
     .a {
         margin-top: 100px;
         padding: 10px;
         overflow-x: hidden;
         box-sizing: border-box;
     }
-        
+
     .img {
         height: 125px;
         width: 125px;
         margin-top: 10px;
     }
+
     .button {
-      font-size: 14px;
-      padding: 8px;
-      height: auto;
-      display: block;
-      margin: 10px auto;
+        font-size: 14px;
+        padding: 8px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
     }
+
     .footer {
         margin-bottom: auto;
     }
+}
