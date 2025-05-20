@@ -1,7 +1,8 @@
 body {
     background-color: hsl(0, 0%, 8%);
     margin: 0;
-    font-family: verdana, sans-serif;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .a {
@@ -20,7 +21,9 @@ body {
     margin-top: 20px;
     height: 170px;
     width: 158px;
-    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -33,30 +36,31 @@ body {
     transition: 0.1s;
     color: hsl(0, 0%, 100%);
     display: block;
-    margin: 10px 60px;
+    margin: 10px auto;
     width: 80%;
     max-width: 300px;
     height: 50px;
+    text-align: center;
 }
 
-button:hover {
+.button:hover {
     background-color: greenyellow;
     transform: scale(1.1);
     color: black;
 }
+
 .footer {
     text-align: center;
-    color: #0000FF;
-    margin-top: 20px;
+    color: #8888ff;
     font-size: 14px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
+
 @media (max-width: 700px) {
     .a {
         margin-top: 100px;
         padding: 10px;
-        overflow-x: hidden;
-        box-sizing: border-box;
     }
 
     .img {
@@ -69,11 +73,6 @@ button:hover {
         font-size: 14px;
         padding: 8px;
         height: auto;
-        display: block;
         margin: 10px auto;
-    }
-
-    .footer {
-        margin-bottom: auto;
     }
 }
