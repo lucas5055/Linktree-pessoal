@@ -49,11 +49,10 @@ body {
 }
 
 .footer {
-    text-align: center;
-    color: #8888ff;
-    font-size: 14px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    color: #0000FF;
+    font-size: 14px;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
